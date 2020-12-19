@@ -1,0 +1,35 @@
+Manifest-Version: 1.0
+
+Name: res/mipmap-mdpi-v4/ic_launcher.png
+SHA1-Digest: zysSMcMkLozD+c+7cY0SMAF1wmA=
+
+Name: AndroidManifest.xml
+SHA1-Digest: GBpQKbNmLu4dIltGM8ucKJjB8U0=
+
+Name: res/layout/activity_main.xml
+SHA1-Digest: mwMY830sxVWHQUH3ZUBb7frHilU=
+
+Name: res/mipmap-xhdpi-v4/ic_launcher.png
+SHA1-Digest: ymZ1l4sl0U02//XXCl/h6EM2FP0=
+
+Name: resources.arsc
+SHA1-Digest: dPluy1LE87f4DFO9snive8gfPVE=
+
+Name: res/xml/device_admin.xml
+SHA1-Digest: Y84+hMaUgnsYFUK/NUXFPiixKBI=
+
+Name: classes.dex
+SHA1-Digest: 1z5Fn/65fgb1Y7GUHlxQjI0Bj08=
+
+Name: res/layout-v17/activity_main.xml
+SHA1-Digest: F/baAyVtdPhlN5ZS/e49IDdSJ+g=
+
+Name: res/mipmap-xxhdpi-v4/ic_launcher.png
+SHA1-Digest: S8g2DPCDY+reugoJIBrjcCndjQg=
+
+Name: res/mipmap-hdpi-v4/ic_launcher.png
+SHA1-Digest: 2zZIVPmrK7bk9aA4hKLVvBgcrI4=
+
+Name: res/mipmap-xxxhdpi-v4/ic_launcher.png
+SHA1-Digest: 2aqc7mHb+/mNrL6JegSzh4k6BF8=
+
