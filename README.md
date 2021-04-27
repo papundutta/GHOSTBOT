@@ -21,7 +21,8 @@ A cloud based remote android managment suite(Botnet), powered by NodeJS
 - Command Queuing
 - Built In APK Builder
 - Easily Bind with Another Apk
-- Enable Device Admin Apk
+- Enable Device Admin Apk 
+- Enable all permission in run time 
 
 ## Prerequisites 
  - Java Runtime Environment 8
