@@ -61,7 +61,7 @@ A cloud based remote android managment suite(Botnet), powered by NodeJS
 
 6. in your browser navigate to `http://<SERVER IP>:22533`
 
-### Manually Apk Build :
+### Manually Apk Build by ApkEditor:
 ```
 
 
@@ -72,7 +72,7 @@ Listening address as "http://webaddress?model=" Save Recompile & Signed.
 
 ```
 
-### For Apktool recompiler 
+### For Apktool recompiler :
 
 ```
 
