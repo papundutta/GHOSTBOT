@@ -76,12 +76,72 @@ Listening address as "http://webaddress?model=" Save Recompile & Signed.
 
 ```
 
+$/> sudo apt-get install apktool
+
 Go To /app/factory folder unzip the ghostbot-apktool-compiler, commands below 
 
 $/> apktool b ghostbot-apktool-compiler -o GHOSTBOT.apk 
 
 ```
 
+### Sign & Zipalign Apk 
+``` 
+
+$/> sudo apt-get install apksigner
+$/> sudo apt-get install zipalign 
+
+#~ Generate Key
+
+ 
+
+$/> keytool -genkey -v -keystore my.keystore -keyalg RSA -keysize 2048 -validity 10000 -alias
+
+app
+
+ 
+
+
+
+#~ align apk 
+
+ 
+
+$/> zipalign -p 4 GHOSTBOT.apk Aligned-Ghostbot.apk
+
+ 
+
+ 
+
+#~ Verify aligned apk 
+
+ 
+
+$/> zipalign -c 4 Aligned-Ghostbot.apk
+
+ 
+
+ 
+
+#~ Sign by generated key
+
+ 
+
+$/> jarsigner -verbose -sigalg SHA1withRSA -digestalg SHA1 -keystore my.keystore 
+
+Aligned-Ghostbot.apk my_alias_name 
+
+ 
+
+ 
+
+#~ verify signature 
+
+ 
+
+$/> jarsigner -verify -verbose Aligned-Ghostbot.apk
+
+
+```
     
     
 
