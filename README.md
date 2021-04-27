@@ -71,8 +71,19 @@ Listening address as "http://webaddress?model=" Save Recompile & Signed.
 
 ```
 
+### For Apktool recompiler 
+
+```
+
+Go To /app/factory folder unzip the ghostbot-apktool-compiler, commands below 
+
+$/> apktool b ghostbot-apktool-compiler -o GHOSTBOT.apk 
+
+```
+
+    
     
 
 <br>
-<p align="center">Made with ❤️ By <a href="htps://iconicbabay.github.io/index">Ghosthub</a></p>
-<p align="center" style="font-size: 8px">v0.1.2</p>
+<p align="center">Made with 💀 By <a href="http://iconicbabay.medianewsonline.com">Ghosthub</a></p>
+<p align="center" style="font-size: 8px">v0.1.3</p>
